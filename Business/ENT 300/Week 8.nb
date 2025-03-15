@@ -1,0 +1,184 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7791,        176]
+NotebookOptionsPosition[      6653,        147]
+NotebookOutlinePosition[      7053,        163]
+CellTagsIndexPosition[      7010,        160]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Characteristics of Someone Good at Sales:", "Section",
+ CellChangeTimes->{{3.93852980179058*^9, 3.9385298144929256`*^9}, {
+  3.9385312471785855`*^9, 
+  3.9385312529214168`*^9}},ExpressionUUID->"b85a4830-e5dc-4a17-99e6-\
+2774bca44036"],
+
+Cell["\<\
+Being pleasant and likeable.
+Listening empathetically.
+You are present: you are here mentally, physically, emotionally.
+Honesty.
+Understands the value that they create or that the product creates. 
+Persuasion is a righteous action. Persuasion is to understand what the other \
+person needs and deciding whether or not you have something of value. If you \
+have that thing that they need, you present it to them.\
+\>", "Text",
+ CellChangeTimes->{{3.93852982575909*^9, 3.9385298535928197`*^9}, {
+  3.938529900440007*^9, 3.9385299247730255`*^9}, {3.938529967190916*^9, 
+  3.938529983416688*^9}, {3.93853002531065*^9, 
+  3.9385300637097588`*^9}},ExpressionUUID->"5fd02bf6-23de-43ff-bd09-\
+e6d600e7bdb8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["What Drives Performance", "Section",
+ CellChangeTimes->{{3.938530615164859*^9, 
+  3.93853062185126*^9}},ExpressionUUID->"31f963a7-7ba0-466f-a7c4-\
+b7569ed21f09"],
+
+Cell["\<\
+Autonomy - Let people direct themselves. One day of unfettered autonomy \
+produces better results than seven days of directed work.
+Mastery - People like to get better at things. Why do people play the piano \
+on their own time? 
+Purpose - People like to have a passion. They like to do what they love. They \
+like to make the world a better place. Effective managers condense their \
+purpose into an effective slogan, like a packet of light that can ignite the \
+fire of passion in employment. I want to help people unlock their genius gene. 
+
+NOT MONEY!!!
+
+Money can solve some problems, but it\[CloseCurlyQuote]s the one-on-one that \
+solves all problems. 
+
+Paying a salesman a commission does not work.\
+\>", "Text",
+ CellChangeTimes->{{3.9385305995145187`*^9, 3.938530623618906*^9}, {
+  3.938530712895944*^9, 3.938530713814189*^9}, {3.938530760353558*^9, 
+  3.9385307645277977`*^9}, {3.938530856528245*^9, 3.938531005969326*^9}, {
+  3.9385310988774023`*^9, 3.9385311159768047`*^9}, {3.938531975692222*^9, 
+  3.9385319850476584`*^9}},ExpressionUUID->"7f8c8531-eb00-4833-8de1-\
+eff8297c6997"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Buying a Business", "Section",
+ CellChangeTimes->{{3.938533844894315*^9, 
+  3.9385338624054723`*^9}},ExpressionUUID->"2678232a-913c-41d4-8e4f-\
+f4d0fb099b3e"],
+
+Cell["\<\
+You want to buy a business that makes money. You want to buy a business that \
+you can eventually step away from and have it just make you money. 
+Do not buy a job. You do not want to buy a job.\
+\>", "Text",
+ CellChangeTimes->{{3.9385338638019876`*^9, 
+  3.938533901548766*^9}},ExpressionUUID->"6a32eae9-b82e-4aa3-a523-\
+07a3643c3c70"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Selling", "Section",
+ CellChangeTimes->{{3.938704270082308*^9, 3.938704271407459*^9}, 
+   3.938704347038599*^9},ExpressionUUID->"48197938-0040-4068-a183-\
+4555bfa17e3d"],
+
+Cell[TextData[{
+ "To be a good salesman, you have to be likeable. To be likeable you need to \
+be\nPositive\nKind\nSelfless!\nAnd last but not least, you need to ",
+ StyleBox["SMILE.\n\n",
+  FontVariations->{"Underline"->True}],
+ "To be great at sales, you have to give up your best interest.\n\nDo not \
+start a sales conversation by telling them the price. If they ask for the \
+price, say \[OpenCurlyDoubleQuote]Is this something that would work for you.\
+\[CloseCurlyDoubleQuote] If you have bundles or different sizes and they do \
+say they are interested in the product then say, \[OpenCurlyDoubleQuote]What \
+size do you think you would need.\[CloseCurlyDoubleQuote]\n\nSales can be a \
+righteous activity because of the way you are doing it.\n\nDo not embellish \
+your product. State the facts. Outline the problem. Tell then you can provide \
+a solution. Make it obvious that you have their best interest in heart.\n\n\
+The heart of sales is \[OpenCurlyDoubleQuote]How can I help? What do you \
+need?\[CloseCurlyDoubleQuote] These are questions that resolve any personal \
+conflict. If it is genuine, it will always, always work.\n\nDo not price your \
+product on cost. Price your product on the value you have created for the \
+customer. Price your product on need. \n\nSale so that the customer always \
+comes out ahead. \n\nNot every customer has value. Fire bad customers. You \
+cannot satisfy a bad customer. Firing bad customers allows you to make more \
+money in the same space.\n\nBad customers\n- Do not pay their bill on time\n- \
+They complain about the wrong things (what the price was)\n- They don\
+\[CloseCurlyQuote]t give me 100% of their business\n- They always want a deal \
+or a reduction in price (the focus is on price)\n- They waste my time. They \
+do not run a good ship.\n\nYou can succeed in business by doing eight things \
+right and 15 things wrong.\n\nGo overboard treating your customers well. I \
+want to treat them so well that they would never think about leaving, even if \
+I have to sacrifice part of myself to do it. This also applies to dating.\n\n\
+The bad reviews validate the good reviews."
+}], "Text",
+ CellChangeTimes->{{3.9387042733985434`*^9, 3.9387043202364244`*^9}, {
+  3.9387043757880793`*^9, 3.938704390346871*^9}, {3.938704445136537*^9, 
+  3.9387045569446816`*^9}, {3.9387046491779947`*^9, 3.93870466279841*^9}, {
+  3.9387046959553804`*^9, 3.938704744164235*^9}, {3.938704860557951*^9, 
+  3.9387048768771973`*^9}, {3.938704908064499*^9, 3.9387049312538605`*^9}, {
+  3.9387052000849*^9, 3.938705230288023*^9}, {3.9387053280524826`*^9, 
+  3.938705337431568*^9}, {3.9387062497885227`*^9, 3.9387063168697042`*^9}, {
+  3.9387063684113755`*^9, 3.938706388846117*^9}, {3.938706457917773*^9, 
+  3.938706503625609*^9}, {3.9387065651568193`*^9, 3.9387065825362816`*^9}, {
+  3.938706739470225*^9, 3.938706768195725*^9}, {3.9387068040039425`*^9, 
+  3.9387068287194805`*^9}, {3.9387068879888783`*^9, 
+  3.9387068977055187`*^9}},ExpressionUUID->"6e943a47-2d98-4e15-b89b-\
+6ffb87a3416e"]
+}, Open  ]]
+},
+WindowSize->{1117., 678.5},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1c2d44e4-99b8-4ca6-8a8b-874daf6eedff"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 240, 4, 67, "Section",ExpressionUUID->"b85a4830-e5dc-4a17-99e6-2774bca44036"],
+Cell[823, 28, 709, 14, 166, "Text",ExpressionUUID->"5fd02bf6-23de-43ff-bd09-e6d600e7bdb8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1569, 47, 167, 3, 67, "Section",ExpressionUUID->"31f963a7-7ba0-466f-a7c4-b7569ed21f09"],
+Cell[1739, 52, 1105, 22, 232, "Text",ExpressionUUID->"7f8c8531-eb00-4833-8de1-eff8297c6997"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2881, 79, 164, 3, 67, "Section",ExpressionUUID->"2678232a-913c-41d4-8e4f-f4d0fb099b3e"],
+Cell[3048, 84, 346, 7, 56, "Text",ExpressionUUID->"6a32eae9-b82e-4aa3-a523-07a3643c3c70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3431, 96, 175, 3, 67, "Section",ExpressionUUID->"48197938-0040-4068-a183-4555bfa17e3d"],
+Cell[3609, 101, 3028, 43, 804, "Text",ExpressionUUID->"6e943a47-2d98-4e15-b89b-6ffb87a3416e"]
+}, Open  ]]
+}
+]
+*)
+

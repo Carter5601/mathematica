@@ -1,0 +1,52 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1235,         44]
+NotebookOptionsPosition[       882,         30]
+NotebookOutlinePosition[      1286,         46]
+CellTagsIndexPosition[      1243,         43]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Increasing sales is always easier than lowering costs.
+Revenue first, then cost.
+You make money with good management.\
+\>", "Text",
+ CellChangeTimes->{{3.9379261347605567`*^9, 3.9379261572228427`*^9}, {
+  3.937927356640676*^9, 
+  3.937927363698349*^9}},ExpressionUUID->"260aad07-3c71-4f1c-aac1-\
+c67eae71481a"]
+},
+WindowSize->{571., 627.5},
+WindowMargins->{{273, Automatic}, {12.5, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"798b9475-b0d6-41e6-a387-c6fdc5fe466f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 320, 8, 78, "Text",ExpressionUUID->"260aad07-3c71-4f1c-aac1-c67eae71481a"]
+}
+]
+*)
+

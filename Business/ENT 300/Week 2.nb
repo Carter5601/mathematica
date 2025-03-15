@@ -1,0 +1,173 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6828,        165]
+NotebookOptionsPosition[      5439,        138]
+NotebookOutlinePosition[      5836,        154]
+CellTagsIndexPosition[      5793,        151]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+An inanimate object or an idea can never be the most important thing to a \
+company.\
+\>", "Text",
+ CellChangeTimes->{{3.935507901339463*^9, 3.9355079336174426`*^9}, {
+  3.935507982529549*^9, 
+  3.935507984212326*^9}},ExpressionUUID->"16f0fe35-5cba-49ae-ad94-\
+f0f192390767"],
+
+Cell["\<\
+Strong, declarative sentences. Do not use unnecessary adverbs.\
+\>", "Text",
+ CellChangeTimes->{{3.935508090511074*^9, 
+  3.93550812297451*^9}},ExpressionUUID->"2860add4-22b9-495c-9311-\
+12a9c447219c"],
+
+Cell["\<\
+Systems lower cost and improve customer satisfaction. Small business are \
+always small because they do not have systems. Systems are key. Being a good \
+manager is key.\
+\>", "Text",
+ CellChangeTimes->{{3.935509699157851*^9, 
+  3.9355097432483206`*^9}},ExpressionUUID->"5beb54f1-b642-494c-94fe-\
+f786cefb5cd6"],
+
+Cell["\<\
+Shouldice Hospital: Can we improve the customer experience and lower our cost.\
+\>", "Text",
+ CellChangeTimes->{{3.9355097451073203`*^9, 
+  3.9355097613353825`*^9}},ExpressionUUID->"8fc354fe-ebd9-4412-a617-\
+9f6a5861c690"],
+
+Cell[CellGroupData[{
+
+Cell["The Three M\[CloseCurlyQuote]s of Money", "Section",
+ CellChangeTimes->{{3.935678796434696*^9, 
+  3.9356788094610233`*^9}},ExpressionUUID->"79101325-3610-4bb4-a498-\
+94eff5ca898c"],
+
+Cell["\<\
+1. Margin - The difference between how much it costs to produce something and \
+how much you sell it for. Do not price based on your cost. The cost is \
+irrelevant. Think instead about the value that you created for the customer. \
+Price based on the value you create for the customer. If \
+you\[CloseCurlyQuote]re competing on price, it is a race to the bottom. \
+\[OpenCurlyDoubleQuote]Never compete on price.\[CloseCurlyDoubleQuote]
+2. Market - We almost always overestimate the market for our product. Have a \
+market that\[CloseCurlyQuote]s big enough so that 1 or 2% of the market is \
+more than you can handle. You cannot change the market.
+3. Multiple - The absence of custom work and the ability to scale without the \
+corresponding increase in overhead. Whenever I am paid for my time I am \
+losing money. Multiples is the most powerful of the Ms.\
+\>", "Text",
+ CellChangeTimes->{{3.935678812931204*^9, 3.935678842319405*^9}, {
+  3.9356792267896624`*^9, 3.935679243456304*^9}, {3.9356792948685637`*^9, 
+  3.93567932526829*^9}, {3.9356796641997695`*^9, 3.935679751207836*^9}, {
+  3.9356801008109083`*^9, 3.935680134580871*^9}, {3.9356802360676603`*^9, 
+  3.935680252560361*^9}, {3.9356803632539816`*^9, 3.9356803679974856`*^9}, {
+  3.9356804904548874`*^9, 3.935680517222143*^9}, {3.9356805530897865`*^9, 
+  3.9356805634660997`*^9}, {3.935680933547842*^9, 
+  3.935680952073143*^9}},ExpressionUUID->"d138a262-9730-4ec4-bbbd-\
+327665ee100e"],
+
+Cell["\<\
+Margin times market times multiplies is like base times width times height. \
+Ask what can I do to increase the market/margin/multiples. M x M x M\
+\>", "Text",
+ CellChangeTimes->{{3.935680679827709*^9, 3.93568069497304*^9}, {
+  3.935680726436816*^9, 
+  3.9356807511253014`*^9}},ExpressionUUID->"a0205a3f-31a3-48db-8d9d-\
+e63d91a47093"],
+
+Cell["\<\
+Every disaster is really a blessing. \[OpenCurlyDoubleQuote]If you\
+\[CloseCurlyQuote]re going through hell, just keep going.\
+\[CloseCurlyDoubleQuote] - Winston Churchill\
+\>", "Text",
+ CellChangeTimes->{{3.9356812185255995`*^9, 
+  3.9356812499627843`*^9}},ExpressionUUID->"c3a68ca9-f757-464f-afa5-\
+41fa1baeb85c"],
+
+Cell["\<\
+There is no such thing as a saturated market. Whenever you can get to the top \
+to the market, it is never saturated. Every market has room for growth and \
+businesses have the ability to grow at the top of the market.\
+\>", "Text",
+ CellChangeTimes->{{3.9356812515050845`*^9, 3.9356812613401237`*^9}, {
+  3.9356813068535748`*^9, 
+  3.935681354813689*^9}},ExpressionUUID->"bc3849e0-d276-492b-9f38-\
+4c43aee097da"],
+
+Cell["\<\
+Sell your app first. Go to an organization and tell them about the product, \
+then have them buy it and tell them that you will develop it and deliver it. \
+\>", "Text",
+ CellChangeTimes->{{3.935681622776264*^9, 3.935681654969938*^9}, {
+  3.9356816923157988`*^9, 
+  3.9356816962820406`*^9}},ExpressionUUID->"8c6b1a20-0a4b-483b-ab12-\
+26af847b96b6"],
+
+Cell["\<\
+You can borrow money only when you have more sales than you have capital.\
+\>", "Text",
+ CellChangeTimes->{{3.935681700964757*^9, 
+  3.9356817298566113`*^9}},ExpressionUUID->"553e951c-b135-4b7f-b383-\
+be8462d512d7"],
+
+Cell["\<\
+Business is easy, making money is simple. It\[CloseCurlyQuote]s embarrassing \
+how much money you can make if you do business correctly. You can run a \
+business very successfully in 90 minutes a day. Hard work is overrated. The \
+people who work the hardest do not make that much money. \
+\>", "Text",
+ CellChangeTimes->{{3.935681923407588*^9, 
+  3.9356820004290247`*^9}},ExpressionUUID->"540cbc9b-e3bc-4be5-8a0b-\
+fa1eda2ce569"]
+}, Open  ]]
+},
+WindowSize->{1117, 673},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"571d631c-d59e-4ed1-bfb7-8f2ef4b98931"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 285, 7, 34, "Text",ExpressionUUID->"16f0fe35-5cba-49ae-ad94-f0f192390767"],
+Cell[846, 29, 211, 5, 34, "Text",ExpressionUUID->"2860add4-22b9-495c-9311-12a9c447219c"],
+Cell[1060, 36, 321, 7, 56, "Text",ExpressionUUID->"5beb54f1-b642-494c-94fe-f786cefb5cd6"],
+Cell[1384, 45, 232, 5, 34, "Text",ExpressionUUID->"8fc354fe-ebd9-4412-a617-9f6a5861c690"],
+Cell[CellGroupData[{
+Cell[1641, 54, 186, 3, 67, "Section",ExpressionUUID->"79101325-3610-4bb4-a498-94eff5ca898c"],
+Cell[1830, 59, 1458, 22, 166, "Text",ExpressionUUID->"d138a262-9730-4ec4-bbbd-327665ee100e"],
+Cell[3291, 83, 346, 7, 34, "Text",ExpressionUUID->"a0205a3f-31a3-48db-8d9d-e63d91a47093"],
+Cell[3640, 92, 325, 7, 34, "Text",ExpressionUUID->"c3a68ca9-f757-464f-afa5-41fa1baeb85c"],
+Cell[3968, 101, 423, 8, 56, "Text",ExpressionUUID->"bc3849e0-d276-492b-9f38-4c43aee097da"],
+Cell[4394, 111, 358, 7, 34, "Text",ExpressionUUID->"8c6b1a20-0a4b-483b-ab12-26af847b96b6"],
+Cell[4755, 120, 225, 5, 34, "Text",ExpressionUUID->"553e951c-b135-4b7f-b383-be8462d512d7"],
+Cell[4983, 127, 440, 8, 56, "Text",ExpressionUUID->"540cbc9b-e3bc-4be5-8a0b-fa1eda2ce569"]
+}, Open  ]]
+}
+]
+*)
+

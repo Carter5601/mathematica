@@ -1,0 +1,52 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1269,         44]
+NotebookOptionsPosition[       916,         30]
+NotebookOutlinePosition[      1320,         46]
+CellTagsIndexPosition[      1277,         43]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+You can quit your job when your income from your business is 3x the amount \
+you are making from your job.
+Its always our responsibility to have a job.\
+\>", "Text",
+ CellChangeTimes->{{3.937323147458802*^9, 3.937323179745801*^9}, {
+  3.9373238282997985`*^9, 
+  3.9373238403937707`*^9}},ExpressionUUID->"414b317d-5a70-4da1-b299-\
+09eb15b5d25a"]
+},
+WindowSize->{571., 627.5},
+WindowMargins->{{273, Automatic}, {12.5, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b2e33a69-98a9-471e-81a6-22785fe866a5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 354, 8, 78, "Text",ExpressionUUID->"414b317d-5a70-4da1-b299-09eb15b5d25a"]
+}
+]
+*)
+

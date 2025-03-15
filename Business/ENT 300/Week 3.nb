@@ -1,0 +1,170 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6350,        162]
+NotebookOptionsPosition[      4924,        133]
+NotebookOutlinePosition[      5324,        149]
+CellTagsIndexPosition[      5281,        146]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Starting a Business / No Monopolies", "Section",
+ CellChangeTimes->{{3.936282993663295*^9, 
+  3.93628300581848*^9}},ExpressionUUID->"5b97b7d5-09b8-4204-9f1f-\
+b5358443cc34"],
+
+Cell["\<\
+Two essentials before starting a business.
+1. You need to have sold your product, and if you have not sold your product \
+you have to at least have some experience selling something.
+2. Actually meeting payroll.\
+\>", "Text",
+ CellChangeTimes->{{3.936111586553809*^9, 
+  3.936111672082689*^9}},ExpressionUUID->"2e788bac-7c08-4b83-9614-\
+6269d09d8678"],
+
+Cell["\<\
+People that manage well make money. Money always follows good management. \
+Money flees from bad management.\
+\>", "Text",
+ CellChangeTimes->{{3.936112085891184*^9, 
+  3.936112121375815*^9}},ExpressionUUID->"ad6ad070-72dc-4cb6-b8ea-\
+e11e6ee8407f"],
+
+Cell["\<\
+After we come up with an idea, we need to validate the concept. Validate the \
+concept every step of the way. Validate everything you think is true until \
+you know that it is true. We assume too much when we start a business. \
+\>", "Text",
+ CellChangeTimes->{{3.9361126041687584`*^9, 3.9361126251446514`*^9}, {
+  3.9361130737437363`*^9, 
+  3.936113114024993*^9}},ExpressionUUID->"62f96f89-06be-4f7d-ba19-\
+bccf7a46132a"],
+
+Cell["\<\
+Spend significant amount of time testing the market. Can I sell this? Do \
+people want it? Will they buy it? Will they buy it from me?\
+\>", "Text",
+ CellChangeTimes->{{3.9361129759865713`*^9, 
+  3.9361130052374563`*^9}},ExpressionUUID->"d21e37d6-3db5-460f-9a71-\
+8bd162868860"],
+
+Cell["\<\
+Where there are no competitors, there is no market. Look for good \
+competitors, rich competitors, and tons of competitors. \
+\>", "Text",
+ CellChangeTimes->{{3.9361131212776585`*^9, 3.9361131341355257`*^9}, {
+  3.9361131734702773`*^9, 
+  3.9361131876825876`*^9}},ExpressionUUID->"0679108d-b380-4ec4-9f88-\
+f0d97bdaf61d"],
+
+Cell["Everything you have is an upgrade of something else.", "Text",
+ CellChangeTimes->{{3.9361134637037325`*^9, 3.9361134749496565`*^9}, {
+  3.9361135892938213`*^9, 
+  3.93611359014624*^9}},ExpressionUUID->"908e34e3-1b81-4478-955e-\
+f6b77d3eb344"],
+
+Cell["\<\
+Do not look for a monopoly. Try to compete against the best and brightest \
+companies and beat them. It works every time. There is always an advantage to \
+compete against a company in business.\
+\>", "Text",
+ CellChangeTimes->{{3.936113592177559*^9, 
+  3.9361136601372337`*^9}},ExpressionUUID->"325f706a-b986-48e4-8e42-\
+04319efa48c6"],
+
+Cell["\<\
+Test the market before you have even decided if you wanted to do this \
+business.\
+\>", "Text",
+ CellChangeTimes->{{3.936113705183243*^9, 
+  3.936113719830727*^9}},ExpressionUUID->"05b22cc9-87a4-4cd8-851f-\
+2c375d3b92b4"],
+
+Cell["A lot of price is really the presentation.", "Text",
+ CellChangeTimes->{{3.9361147810092*^9, 
+  3.9361147895779467`*^9}},ExpressionUUID->"2aff6956-d267-43e3-b0e5-\
+4ce273d61d77"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Success and Failure", "Section",
+ CellChangeTimes->{{3.9362830253401756`*^9, 
+  3.936283030133636*^9}},ExpressionUUID->"421e8b76-5880-453c-968c-\
+42bb9442f604"],
+
+Cell["\<\
+Evidence that you are learning is that your life is changing, that you are \
+improving.
+People are negative because they see scarcity rather than abundance; they are \
+also incredibly selfish. Selfishness is the root of every sin.
+Every time you fail, you learn something. Failure only leads to success if we \
+learn something from it.
+Being a perfectionist is selfish.
+Anyplace you can learn, take it. You ought to have a thirst for learning and \
+a thirst for experiences. 
+Relish failure from effort. Become good at learning from your own \
+experiences. Become good at trying new things. 
+Sometimes the price is too low. Sometimes you have to move it up so people \
+believe it is good.\
+\>", "Text",
+ CellChangeTimes->{{3.936284869278516*^9, 3.936284884557917*^9}, {
+  3.936284990489122*^9, 3.9362850117196417`*^9}, {3.9362852182721148`*^9, 
+  3.936285225399003*^9}, {3.936285357391431*^9, 3.9362853681242523`*^9}, {
+  3.936286978583875*^9, 3.936286995315355*^9}, {3.9362870826091223`*^9, 
+  3.9362871202235374`*^9}, {3.9362872886709805`*^9, 3.936287308962368*^9}, {
+  3.936287439524887*^9, 3.9362874623824973`*^9}, {3.9362876249164815`*^9, 
+  3.936287652001079*^9}},ExpressionUUID->"769512a5-37c7-410c-9e4d-\
+26457023ac0d"]
+}, Open  ]]
+},
+WindowSize->{1117., 678.5},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"3bf8d775-d015-4cab-9cbb-ae18446b8f40"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 179, 3, 67, "Section",ExpressionUUID->"5b97b7d5-09b8-4204-9f1f-b5358443cc34"],
+Cell[762, 27, 361, 8, 78, "Text",ExpressionUUID->"2e788bac-7c08-4b83-9614-6269d09d8678"],
+Cell[1126, 37, 258, 6, 34, "Text",ExpressionUUID->"ad6ad070-72dc-4cb6-b8ea-e11e6ee8407f"],
+Cell[1387, 45, 432, 8, 56, "Text",ExpressionUUID->"62f96f89-06be-4f7d-ba19-bccf7a46132a"],
+Cell[1822, 55, 288, 6, 34, "Text",ExpressionUUID->"d21e37d6-3db5-460f-9a71-8bd162868860"],
+Cell[2113, 63, 331, 7, 34, "Text",ExpressionUUID->"0679108d-b380-4ec4-9f88-f0d97bdaf61d"],
+Cell[2447, 72, 248, 4, 34, "Text",ExpressionUUID->"908e34e3-1b81-4478-955e-f6b77d3eb344"],
+Cell[2698, 78, 346, 7, 56, "Text",ExpressionUUID->"325f706a-b986-48e4-8e42-04319efa48c6"],
+Cell[3047, 87, 231, 6, 34, "Text",ExpressionUUID->"05b22cc9-87a4-4cd8-851f-2c375d3b92b4"],
+Cell[3281, 95, 184, 3, 34, "Text",ExpressionUUID->"2aff6956-d267-43e3-b0e5-4ce273d61d77"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3502, 103, 166, 3, 67, "Section",ExpressionUUID->"421e8b76-5880-453c-968c-42bb9442f604"],
+Cell[3671, 108, 1237, 22, 166, "Text",ExpressionUUID->"769512a5-37c7-410c-9e4d-26457023ac0d"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,75 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2304,         67]
+NotebookOptionsPosition[      1823,         50]
+NotebookOutlinePosition[      2226,         66]
+CellTagsIndexPosition[      2183,         63]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Negotiating", "Section",
+ CellChangeTimes->{{3.9399179327642813`*^9, 
+  3.939917942803022*^9}},ExpressionUUID->"2b1a7cd0-eed2-453f-a0f6-\
+0155a146af96"],
+
+Cell["\<\
+Negotiate everything else before you negotiate price.
+Price is the least valuable part of any negotiation.
+Give bad news always in advance.
+Do not enter into a deal if you do not think the other person is not getting \
+a good deal also.
+When you negotiate, you should always leave money on the table.
+When you are negotiating for money you are always losing.
+Be willing to be taken advantage of if it is for a good cause, if it blesses \
+the life of another person.
+All service to other people comes at a sacrifice.
+Is there any other way to serve God than by serving others? God has all He \
+could ever need and want. \
+\>", "Text",
+ CellChangeTimes->{{3.93991681092068*^9, 3.939916847223499*^9}, {
+  3.939917258128271*^9, 3.939917267136859*^9}, {3.9399178627958264`*^9, 
+  3.9399178883357687`*^9}, {3.939918147248767*^9, 3.939918160567433*^9}, {
+  3.9399184539199533`*^9, 3.939918464702525*^9}, {3.9399191208167925`*^9, 
+  3.939919149213442*^9}, {3.939919464109906*^9, 
+  3.9399195379187903`*^9}},ExpressionUUID->"7981f398-7f47-4a96-863b-\
+8e68cb6317f7"]
+}, Open  ]]
+},
+WindowSize->{1128, 684},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0eb6128d-7f3f-4ecf-85b7-0f7b7bbd9755"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 158, 3, 67, "Section",ExpressionUUID->"2b1a7cd0-eed2-453f-a0f6-0155a146af96"],
+Cell[741, 27, 1066, 20, 210, "Text",ExpressionUUID->"7981f398-7f47-4a96-863b-8e68cb6317f7"]
+}, Open  ]]
+}
+]
+*)
+

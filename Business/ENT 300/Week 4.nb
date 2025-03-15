@@ -1,0 +1,57 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1536,         49]
+NotebookOptionsPosition[      1182,         35]
+NotebookOutlinePosition[      1585,         51]
+CellTagsIndexPosition[      1542,         48]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Businesses cannot be saturated. Products can be saturated.
+Your goal is always to make the people you come in contact with richer.
+Never own anything. Never manufacturer anything. Just sell.
+Sales is where the magic happens.
+The Road to Serfdom
+The E Myth Revisited\
+\>", "Text",
+ CellChangeTimes->{{3.936717263590996*^9, 3.936717281784464*^9}, {
+  3.9367177062261276`*^9, 3.9367177228519197`*^9}, {3.9367179228191586`*^9, 
+  3.9367179428168983`*^9}, {3.936717993563525*^9, 3.936718005870688*^9}, {
+  3.9367190747465515`*^9, 
+  3.9367190922922716`*^9}},ExpressionUUID->"1b7e2d65-dfd5-48ae-aafe-\
+c8aed6e6371d"]
+},
+WindowSize->{1128, 684},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fa5eab12-0ffa-43d1-9a34-4103a24d1825"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 620, 13, 144, "Text",ExpressionUUID->"1b7e2d65-dfd5-48ae-aafe-c8aed6e6371d"]
+}
+]
+*)
+

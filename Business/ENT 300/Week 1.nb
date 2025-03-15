@@ -1,0 +1,252 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8813,        244]
+NotebookOptionsPosition[      6021,        189]
+NotebookOutlinePosition[      6499,        206]
+CellTagsIndexPosition[      6456,        203]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["When Trying to Start a Business", "Section",
+ CellChangeTimes->{{3.9350744115925255`*^9, 
+  3.93507444374265*^9}},ExpressionUUID->"d6176bd1-6f64-4c72-9854-\
+5a6bf18cf514"],
+
+Cell[CellGroupData[{
+
+Cell["Do\[CloseCurlyQuote]s", "Subsection",
+ CellChangeTimes->{{3.9350744468136597`*^9, 
+  3.9350744920237956`*^9}},ExpressionUUID->"3de28fd8-ff35-4406-99f3-\
+fa6245c2b98c"],
+
+Cell[CellGroupData[{
+
+Cell["Who needs my help?", "Item",
+ CellChangeTimes->{{3.9350742848799415`*^9, 
+  3.935074306326115*^9}},ExpressionUUID->"7d29951c-fc57-44e7-b195-\
+ef7f63490e49"],
+
+Cell["What problems can I solve?", "Item",
+ CellChangeTimes->{{3.9350742848799415`*^9, 
+  3.935074312624793*^9}},ExpressionUUID->"95414b7b-ee10-4c0f-9739-\
+3a97663e138e"],
+
+Cell["What opportunities exist out there?", "Item",
+ CellChangeTimes->{{3.9350742848799415`*^9, 3.935074322489667*^9}, {
+  3.935075399567481*^9, 
+  3.9350753995684814`*^9}},ExpressionUUID->"e419de06-2525-4405-afce-\
+2f30fc775581"],
+
+Cell["Where are there excesses and where are there shortages?", "Item",
+ CellChangeTimes->{{3.9350742848799415`*^9, 3.935074322489667*^9}, {
+  3.9350754002782326`*^9, 
+  3.9350754121698875`*^9}},ExpressionUUID->"6fd2c6c7-d920-4fe1-a206-\
+83283ff027cf"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Dont\[CloseCurlyQuote]s", "Subsection",
+ CellChangeTimes->{{3.9350744746560154`*^9, 
+  3.9350744940772467`*^9}},ExpressionUUID->"f5a2966b-a826-429a-9cab-\
+25a7d07c0122"],
+
+Cell[CellGroupData[{
+
+Cell["What am I good at?", "Item",
+ CellChangeTimes->{{3.93507450609394*^9, 
+  3.9350745422884245`*^9}},ExpressionUUID->"2884b432-00c8-48aa-a434-\
+2a09f0c0dd38"],
+
+Cell["What are my talents?", "Item",
+ CellChangeTimes->{{3.93507450609394*^9, 3.935074546140018*^9}, {
+  3.9350747460074997`*^9, 
+  3.9350747460160704`*^9}},ExpressionUUID->"2f65f6ad-b4b8-4426-a0bb-\
+e6954e34f4e5"],
+
+Cell["What do I want to do?", "Item",
+ CellChangeTimes->{{3.93507450609394*^9, 3.935074546140018*^9}, {
+  3.935074746354144*^9, 
+  3.93507475291308*^9}},ExpressionUUID->"41592077-8860-4ce3-8f6b-\
+3367d3da906d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Action Items", "Subsection",
+ CellChangeTimes->{{3.935076020346938*^9, 
+  3.9350760315597734`*^9}},ExpressionUUID->"d18b80a9-3a90-4263-94c2-\
+0483a6fce57c"],
+
+Cell["\<\
+Get good at listening to other people, asking questions of other people, and \
+complimenting other people.\
+\>", "Text",
+ CellChangeTimes->{{3.935075105048382*^9, 
+  3.935075147241448*^9}},ExpressionUUID->"fbf9120d-bf93-4434-b645-\
+de8259eeefd3"],
+
+Cell["\<\
+Focus your conversation on the other person until they ask you a question.\
+\>", "Text",
+ CellChangeTimes->{{3.935075298702261*^9, 
+  3.9350753210432377`*^9}},ExpressionUUID->"b88137f2-e511-40c2-b225-\
+86211520b292"],
+
+Cell["\<\
+Increase your sensitivity to promptings of the Spirit and follow them. Act on \
+those promptings and go ahead with the opportunities that the Spirit brings \
+to your mind.\
+\>", "Text",
+ CellChangeTimes->{{3.935076164245307*^9, 3.9350761881558185`*^9}, {
+  3.9350762232970915`*^9, 
+  3.9350762385047846`*^9}},ExpressionUUID->"86278367-9608-492c-9fb8-\
+43cc0287c693"],
+
+Cell["\<\
+Go on KSL.com, buy something and repost it for a profit until you get to $500.\
+\>", "Text",
+ CellChangeTimes->{{3.9350763639688053`*^9, 3.9350764059862394`*^9}, {
+  3.9350769569023104`*^9, 
+  3.935076958471162*^9}},ExpressionUUID->"cc61f31f-fc3f-4668-8f97-\
+269ef77aa0a4"],
+
+Cell["\<\
+Should Shouldice Hospital expand? Deal with only the facts presented in the \
+case. Who owns Shouldice Hosptial today? Is Shouldice hospital profitable? \
+How much do they make every year? Only read the case.\
+\>", "Text",
+ CellChangeTimes->{{3.9350769607246776`*^9, 3.935076986080374*^9}, {
+  3.9350770593273163`*^9, 3.935077072278311*^9}, {3.9350772178145213`*^9, 
+  3.9350772541935177`*^9}},ExpressionUUID->"03fcce3e-c953-4460-95a8-\
+f32e930b6928"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Principles", "Subsection",
+ CellChangeTimes->{{3.935076011228669*^9, 3.9350760182998085`*^9}, 
+   3.935077275864359*^9},ExpressionUUID->"0ad0ac1c-3f7d-4504-89f5-\
+334de544f5f8"],
+
+Cell["\<\
+When I go and do the work myself, I make less money than if I hired somebody \
+to do the work.\
+\>", "Text",
+ CellChangeTimes->{{3.9350758599262257`*^9, 3.9350758974223595`*^9}, 
+   3.9350772782153807`*^9},ExpressionUUID->"d2d6f182-3a75-478e-a42f-\
+b2727ad2b4e9"],
+
+Cell["\<\
+You' ve got to start where you are, do what you can, use what you have. There \
+are opportunities everywhere if you will listen.\
+\>", "Text",
+ CellChangeTimes->{{3.9350761208391995`*^9, 
+  3.935076161399997*^9}},ExpressionUUID->"65de0020-985e-4a0f-b3d9-\
+35dffb394f8e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Three Things You Need to Start a Business", "Subsection",
+ CellChangeTimes->{{3.9350779723842726`*^9, 
+  3.9350779871460114`*^9}},ExpressionUUID->"2a53ae13-5657-41e3-a1b2-\
+f1439cd3e962"],
+
+Cell[CellGroupData[{
+
+Cell["Idea", "ItemNumbered",
+ CellChangeTimes->{{3.935077954499295*^9, 
+  3.935077964969328*^9}},ExpressionUUID->"1792057e-7e52-4702-9726-\
+9594baf380e9"],
+
+Cell["Capital ", "ItemNumbered",
+ CellChangeTimes->{{3.935077954499295*^9, 
+  3.9350779682529*^9}},ExpressionUUID->"b290ed6f-158e-4a17-b86d-03197d30b35e"],
+
+Cell["Management", "ItemNumbered",
+ CellChangeTimes->{{3.935077954499295*^9, 
+  3.9350779703245115`*^9}},ExpressionUUID->"17c52b55-8b37-4cb4-99bd-\
+e1f7cfa5a3e8"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1128, 684},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+SpellingDictionaries->{"CorrectWords"->{"Artichitect", "When", "Trying"}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f6bbfce7-d8a5-40ae-8d57-0c4b8b55ee9d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 177, 3, 67, "Section",ExpressionUUID->"d6176bd1-6f64-4c72-9854-5a6bf18cf514"],
+Cell[CellGroupData[{
+Cell[782, 29, 173, 3, 54, "Subsection",ExpressionUUID->"3de28fd8-ff35-4406-99f3-fa6245c2b98c"],
+Cell[CellGroupData[{
+Cell[980, 36, 162, 3, 31, "Item",ExpressionUUID->"7d29951c-fc57-44e7-b195-ef7f63490e49"],
+Cell[1145, 41, 170, 3, 31, "Item",ExpressionUUID->"95414b7b-ee10-4c0f-9739-3a97663e138e"],
+Cell[1318, 46, 230, 4, 31, "Item",ExpressionUUID->"e419de06-2525-4405-afce-2f30fc775581"],
+Cell[1551, 52, 252, 4, 31, "Item",ExpressionUUID->"6fd2c6c7-d920-4fe1-a206-83283ff027cf"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1852, 62, 175, 3, 54, "Subsection",ExpressionUUID->"f5a2966b-a826-429a-9cab-25a7d07c0122"],
+Cell[CellGroupData[{
+Cell[2052, 69, 161, 3, 31, "Item",ExpressionUUID->"2884b432-00c8-48aa-a434-2a09f0c0dd38"],
+Cell[2216, 74, 214, 4, 31, "Item",ExpressionUUID->"2f65f6ad-b4b8-4426-a0bb-e6954e34f4e5"],
+Cell[2433, 80, 210, 4, 31, "Item",ExpressionUUID->"41592077-8860-4ce3-8f6b-3367d3da906d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2692, 90, 162, 3, 54, "Subsection",ExpressionUUID->"d18b80a9-3a90-4263-94c2-0483a6fce57c"],
+Cell[2857, 95, 256, 6, 34, "Text",ExpressionUUID->"fbf9120d-bf93-4434-b645-de8259eeefd3"],
+Cell[3116, 103, 226, 5, 34, "Text",ExpressionUUID->"b88137f2-e511-40c2-b225-86211520b292"],
+Cell[3345, 110, 376, 8, 56, "Text",ExpressionUUID->"86278367-9608-492c-9fb8-43cc0287c693"],
+Cell[3724, 120, 283, 6, 34, "Text",ExpressionUUID->"cc61f31f-fc3f-4668-8f97-269ef77aa0a4"],
+Cell[4010, 128, 461, 8, 56, "Text",ExpressionUUID->"03fcce3e-c953-4460-95a8-f32e930b6928"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4508, 141, 183, 3, 54, "Subsection",ExpressionUUID->"0ad0ac1c-3f7d-4504-89f5-334de544f5f8"],
+Cell[4694, 146, 273, 6, 34, "Text",ExpressionUUID->"d2d6f182-3a75-478e-a42f-b2727ad2b4e9"],
+Cell[4970, 154, 280, 6, 34, "Text",ExpressionUUID->"65de0020-985e-4a0f-b3d9-35dffb394f8e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5287, 165, 193, 3, 54, "Subsection",ExpressionUUID->"2a53ae13-5657-41e3-a1b2-f1439cd3e962"],
+Cell[CellGroupData[{
+Cell[5505, 172, 154, 3, 31, "ItemNumbered",ExpressionUUID->"1792057e-7e52-4702-9726-9594baf380e9"],
+Cell[5662, 177, 154, 2, 31, "ItemNumbered",ExpressionUUID->"b290ed6f-158e-4a17-b86d-03197d30b35e"],
+Cell[5819, 181, 162, 3, 31, "ItemNumbered",ExpressionUUID->"17c52b55-8b37-4cb4-99bd-e1f7cfa5a3e8"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
