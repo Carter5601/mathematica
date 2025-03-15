@@ -1,0 +1,99 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4305,         91]
+NotebookOptionsPosition[      3948,         77]
+NotebookOutlinePosition[      4352,         93]
+CellTagsIndexPosition[      4309,         90]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Carter Colton
+                  Doctor Glen Cooper
+                  April 1 st, 2023
+                  PHIL 211
+                  Erwin' s Schrodinger' s The Present Situation of Quantum \
+Mechanics
+              Author
+              Erwin Schrodinger was born in Erdberg, Vienna, Austria on \
+August 1887. Schrodinger' s father was a famous chemist who devoted his \
+latter years to Italian painting.Erwin Schrodinger displayed an interest in \
+science as a young boy, however, he hated learning from books and memorizing \
+data.He loved German poetry and grammar.From 1906 to 1910, Schrodinger \
+studied at the University of Vienna.Schrodinger constantly questioned \
+previous scientific thought, rejecting the fact that the Bohr model told us \
+everything we need to know about the atom.Schrodinger won the Noble Prize in \
+Physics in 1933 for his work that showed that electrons have properties of \
+both waves and particles.
+              Summary
+            In \"The Present Situation of Quantum Mechanics,\" Schrodinger \
+begins by explaining the recent happenings of classical physics.He then \
+questions why we cannot embrace these thoughts \"without handcuffing the \
+intuitive imagination.\" Schrodinger then continues to talk about classical \
+physics and how quantum mechanics ties into the concepts that all scientists \
+had held dear for centuries.One powerful example of Schrodinger' s ability to \
+connect quantum mechanics with imaginative intuition is his inclusion of the \
+\"Schrodinger' s Cat\" parable.He uses this thought experiment to describe \
+how electrons can be both absent and present, until we map their probability \
+with the uncertainty principle.
+            Analysis
+      Erwin Schrodinger spent his entire life going against the grain of \
+classical physics.Most physicist hated quantum physics.Many held onto the \
+idea of an all - encompassing, ever - present ether that allowed light to \
+travel through its own medium.This idea aligned best with classical thought \
+and went well with classical intuition.Therefore, most physicists disregarded \
+the first quantum mechanical ideas.
+      Schrodinger was different, however.His mind operated on a different \
+plane than most of the physicists of his day.With his work with Dirac on the \
+uncertainty principle and Schrodinger' s Equation, he changed the way physics \
+was viewed.Although many physicists were wary of these ideas, they could not \
+deny their veracity.They connected well to Bohr' s model and answered many \
+questions.Additionally, they were confirmed by experiment after some years.
+      Schrodinger built the foundation of modern physics.Newtonian physics \
+focused on ideas of forces, mass, and motion.Schrodinger showed that quantum \
+physics and small - scale physics should rather be based on potentials, \
+energy as mass, and probabilities.These ideas revolutionized physics and made \
+it into the modern physics that we know today.
+      Research Question
+  What is the benefit of looking at a scientific principle or avenue from a \
+different point of view?How can imagination and other \"odd methods\" of \
+approaching scientific thought advance scientific ideas and revolutionize the \
+world' s knowledge of truth?\
+\>", "Text",
+ CellChangeTimes->{{3.889356862343213*^9, 
+  3.8893569155344243`*^9}},ExpressionUUID->"4d36e835-6a61-4264-8523-\
+a3313b715dc5"]
+},
+WindowSize->{571., 627.5},
+WindowMargins->{{273, Automatic}, {12.5, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4e8adde-4512-4930-a67d-f0a39ff18a48"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3386, 55, 1156, "Text",ExpressionUUID->"4d36e835-6a61-4264-8523-a3313b715dc5"]
+}
+]
+*)
+
