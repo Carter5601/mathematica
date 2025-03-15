@@ -1,0 +1,134 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4124,        126]
+NotebookOptionsPosition[      3187,        105]
+NotebookOutlinePosition[      3619,        122]
+CellTagsIndexPosition[      3576,        119]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Modeling Games:
+- Sequential games
+- Payoffs = utilities (not dollars, not points)
+- Backward induction
+- Information sets (game tree oval nodes)
+- Simultaneous games, equivalence\
+\>", "Text",
+ CellChangeTimes->{{3.9163080405918827`*^9, 3.9163080960455437`*^9}, {
+  3.916308140271727*^9, 
+  3.9163081563781977`*^9}},ExpressionUUID->"ce676ea9-d75e-4cf9-8ba6-\
+1c05011f01b0"],
+
+Cell["\<\
+Dominant/dominated strategies
+- Dominant strategy
+- Application : bidding in (second price) auctions
+- Dominated strategy
+- Iterated elimination of dominant strategies
+- Application : Bertrand price competition\
+\>", "Text",
+ CellChangeTimes->{{3.916308248790902*^9, 
+  3.9163083251094785`*^9}},ExpressionUUID->"cf92abe8-27b7-4631-b49e-\
+961905da18ec"],
+
+Cell["\<\
+Nash Equilibrium
+- Best responses
+- Symmetric equilibrium
+- Continuous games\
+\>", "Text",
+ CellChangeTimes->{{3.916308552558839*^9, 
+  3.916308584538742*^9}},ExpressionUUID->"f4825922-9f93-48a0-9a7f-\
+066ea51e9d9c"],
+
+Cell["\<\
+Simple Games
+- Prisoner\[CloseCurlyQuote]s dilemma
+- Traveler\[CloseCurlyQuote]s paradox
+- Battle of the sexes/War and peace in Congress
+- Stag hunt (no dominant strategy, one against the many)
+- Chicken\
+\>", "Text",
+ CellChangeTimes->{{3.9163091366919284`*^9, 3.9163091783755302`*^9}, {
+  3.9163093127115602`*^9, 3.916309314283023*^9}, {3.9163096216944537`*^9, 
+  3.9163096549246635`*^9}},ExpressionUUID->"ce9e5caf-2171-446e-9540-\
+53a7289a2eb3"],
+
+Cell["\<\
+Application : Cournot Duopoly
+- Firms choose quantity, market demand determines price
+- Equilibrium: higher quantity than cartel, lower profits
+- More firms: price approaches the marginal cost, profit approaches zero
+- Stackelberg: first mover advantage\
+\>", "Text",
+ CellChangeTimes->{{3.9163097266669517`*^9, 
+  3.9163098078225503`*^9}},ExpressionUUID->"c8e8d6bb-a98b-4639-b8a9-\
+b4f8c7d22e75"],
+
+Cell["\<\
+Application : Voting
+- Majority rule: Condorcet winner (loser), Condorcet cycles
+- Plurality rule, Borda rule, runoff, ranked choice voting. All of these are \
+susceptible to spoilers
+- Agendas: manipulation by agenda setter
+- Arrow\[CloseCurlyQuote]s impossibility theorem
+- Single-peaked preferences
+- Median voter theorem\
+\>", "Text",
+ CellChangeTimes->{{3.9163099492421217`*^9, 3.916310031061071*^9}, {
+  3.916310794745422*^9, 
+  3.9163108045053215`*^9}},ExpressionUUID->"977eb3b5-64df-487a-8e99-\
+e66e962c26bd"],
+
+Cell["\<\
+Application : Common resources
+Tragedy of the commons
+Public goods
+Public bads
+Large groups\
+\>", "Text",
+ CellChangeTimes->{{3.916311305681574*^9, 
+  3.9163113346907196`*^9}},ExpressionUUID->"8bd4ee8c-4dca-41e8-ba42-\
+5fdd53705540"]
+},
+WindowSize->{562., 677.5},
+WindowMargins->{{-4.5, Automatic}, {Automatic, 0}},
+Magnification:>1.1 Inherited,
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f878bf4f-a6f6-44ce-9c1d-d93430db9e7e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 384, 11, 159, "Text",ExpressionUUID->"ce676ea9-d75e-4cf9-8ba6-1c05011f01b0"],
+Cell[945, 33, 362, 10, 159, "Text",ExpressionUUID->"cf92abe8-27b7-4631-b49e-961905da18ec"],
+Cell[1310, 45, 226, 8, 110, "Text",ExpressionUUID->"f4825922-9f93-48a0-9a7f-066ea51e9d9c"],
+Cell[1539, 55, 458, 11, 159, "Text",ExpressionUUID->"ce9e5caf-2171-446e-9540-53a7289a2eb3"],
+Cell[2000, 68, 407, 9, 159, "Text",ExpressionUUID->"c8e8d6bb-a98b-4639-b8a9-b4f8c7d22e75"],
+Cell[2410, 79, 527, 13, 207, "Text",ExpressionUUID->"977eb3b5-64df-487a-8e99-e66e962c26bd"],
+Cell[2940, 94, 243, 9, 134, "Text",ExpressionUUID->"8bd4ee8c-4dca-41e8-ba42-5fdd53705540"]
+}
+]
+*)
+
