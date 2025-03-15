@@ -1,0 +1,379 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13667,        371]
+NotebookOptionsPosition[     12165,        340]
+NotebookOutlinePosition[     12569,        356]
+CellTagsIndexPosition[     12526,        353]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Learning Project 1", "Title",
+ CellChangeTimes->{{3.85230565657666*^9, 
+  3.8523056601630983`*^9}},ExpressionUUID->"3870bea4-1d93-406a-9ac7-\
+aaa7bb74176f"],
+
+Cell["Find how the speed varies with the voltage", "Text",
+ CellChangeTimes->{{3.8523056669778147`*^9, 
+  3.85230568532707*^9}},ExpressionUUID->"c8dd465d-c7c3-4082-bbac-\
+24b3a4f3998f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{".9", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.3", ",", "4.2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.5", ",", "5.12"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.8", ",", "6.5"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.4", ",", "9.626"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.7", ",", "11.13"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "12.34"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3.45", ",", "14.99"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", "18.05"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4.5", ",", "20.47"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5", ",", "22.7"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5.5", ",", "25.37"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6", ",", "28.16"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6.5", ",", "30.86"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7", ",", "34.2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7.5", ",", "36.63"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8", ",", "38.01"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8.5", ",", "39.6"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9", ",", "41.72"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9.5", ",", "43.47"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"10", ",", "47.42"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.8523057026173964`*^9, 3.8523057114424915`*^9}, 
+   3.8523057709092603`*^9, {3.85230710551712*^9, 3.852307168878975*^9}, {
+   3.852307891767124*^9, 3.85230804120408*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"8003d3ff-697c-43ac-a61b-0f62b90edaa6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table", "itraw", 
+   "\"Raw object \\!\\(\\*RowBox[{\\\"1.3`\\\"}]\\) cannot be used as an \
+iterator.\"", 2, 1, 2, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8523080421626186`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"17724aa4-959e-423e-9166-219eb169784a"],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0.9`", ",", "3"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.3`", ",", "4.2`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.5`", ",", "5.12`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.8`", ",", "6.5`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2.4`", ",", "9.626`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2.7`", ",", "11.13`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"3", ",", "12.34`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"3.45`", ",", "14.99`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"4", ",", "18.05`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"4.5`", ",", "20.47`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"5", ",", "22.7`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"5.5`", ",", "25.37`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"6", ",", "28.16`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"6.5`", ",", "30.86`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"7", ",", "34.2`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"7.5`", ",", "36.63`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"8", ",", "38.01`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"8.5`", ",", "39.6`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"9", ",", "41.72`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"9.5`", ",", "43.47`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"10", ",", "47.42`"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{3.852308042301923*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"02ec3e83-43ec-4a7c-b375-8337760fec06"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{".9", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.3", ",", "4.2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.5", ",", "5.12"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.8", ",", "6.5"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.4", ",", "9.626"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.7", ",", "11.13"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "12.34"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3.45", ",", "14.99"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", "18.05"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4.5", ",", "20.47"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5", ",", "22.7"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5.5", ",", "25.37"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6", ",", "28.16"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6.5", ",", "30.86"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7", ",", "34.2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7.5", ",", "36.63"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8", ",", "38.01"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8.5", ",", "39.6"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9", ",", "41.72"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9.5", ",", "43.47"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"10", ",", "47.42"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.852308114222925*^9, 3.852308130707409*^9}, {
+  3.8523081649005847`*^9, 3.8523081767861156`*^9}, {3.852308216543621*^9, 
+  3.852308217267101*^9}, {3.8523082724277573`*^9, 3.852308290958039*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"e7c8904d-10ef-4a5b-91d1-5e76b68671b1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table", "itraw", 
+   "\"Raw object \\!\\(\\*RowBox[{\\\"1.3`\\\"}]\\) cannot be used as an \
+iterator.\"", 2, 5, 14, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8523081779582667`*^9, 3.852308218181651*^9, {3.8523082766185303`*^9, 
+   3.852308293741848*^9}},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9ce25c19-3424-4222-83a9-9cf76c4a3331"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table", "itraw", 
+   "\"Raw object \\!\\(\\*RowBox[{\\\"1.3`\\\"}]\\) cannot be used as an \
+iterator.\"", 2, 5, 15, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8523081779582667`*^9, 3.852308218181651*^9, {3.8523082766185303`*^9, 
+   3.8523082938214235`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ce55ad89-d4be-40dd-be02-37f571f5998b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Table", "itraw", 
+   "\"Raw object \\!\\(\\*RowBox[{\\\"1.3`\\\"}]\\) cannot be used as an \
+iterator.\"", 2, 5, 16, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8523081779582667`*^9, 3.852308218181651*^9, {3.8523082766185303`*^9, 
+   3.8523082938329873`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8784434d-2875-4aeb-a3b8-802e8630d32e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Table\\\", \\\"::\\\", \
+\\\"itraw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 5, 17, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8523081779582667`*^9, 3.852308218181651*^9, {3.8523082766185303`*^9, 
+   3.8523082938420496`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8e4ab77c-6b76-4907-9310-06a46f029de6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ListPlot", "lpn", 
+   "\"\\!\\(\\*RowBox[{\\\"Table\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"0.9`\\\", \\\",\\\", \\\"3.`\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"1.3`\\\", \\\",\\\", \\\"4.2`\\\"}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"1.5`\\\", \\\",\\\", \
+\\\"5.12`\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"1.8`\\\", \\\",\\\", \\\"6.5`\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"2.4`\\\", \\\",\\\", \\\"9.626`\\\"}], \\\"}\\\
+\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"2.7`\\\", \\\",\\\", \
+\\\"11.13`\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"3.`\\\", \\\",\\\", \\\"12.34`\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"3.45`\\\", \\\",\\\", \\\"14.99`\\\"}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"5\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"6.5`\\\", \
+\\\",\\\", \\\"30.86`\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"7.`\\\", \\\",\\\", \\\"34.2`\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"7.5`\\\", \\\",\\\", \\\"36.63`\\\"}], \\\"}\\\
+\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"8.`\\\", \\\",\\\", \
+\\\"38.01`\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"8.5`\
+\\\", \\\",\\\", \\\"39.6`\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"9.`\\\", \\\",\\\", \\\"41.72`\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"9.5`\\\", \\\",\\\", \\\"43.47`\\\"}], \\\"}\\\
+\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"10.`\\\", \\\",\\\", \
+\\\"47.42`\\\"}], \\\"}\\\"}]}], \\\"]\\\"}]\\) is not a list of numbers or \
+pairs of numbers.\"", 2, 5, 18, 33238062336118146992, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8523081779582667`*^9, 3.852308218181651*^9, {3.8523082766185303`*^9, 
+   3.852308293852662*^9}},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5a73c5f9-ff43-4b7f-8ffa-b6df75cf9751"],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"0.9`", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.3`", ",", "4.2`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.5`", ",", "5.12`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1.8`", ",", "6.5`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.4`", ",", "9.626`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"2.7`", ",", "11.13`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "12.34`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3.45`", ",", "14.99`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", "18.05`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4.5`", ",", "20.47`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5", ",", "22.7`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"5.5`", ",", "25.37`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6", ",", "28.16`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"6.5`", ",", "30.86`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7", ",", "34.2`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"7.5`", ",", "36.63`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8", ",", "38.01`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"8.5`", ",", "39.6`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9", ",", "41.72`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"9.5`", ",", "43.47`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"10", ",", "47.42`"}], "}"}]}], "]"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.8523081780109825`*^9, 3.85230821820578*^9, {3.852308276870449*^9, 
+   3.852308293863863*^9}},
+ CellLabel->"Out[5]=",ExpressionUUID->"c787c491-b928-4d1b-ade2-cf96a5d0a8f2"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{571., 627.5},
+WindowMargins->{{273, Automatic}, {18.5, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d72fd4dd-4433-46c7-9ac4-7688b2f524d8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 162, 3, 98, "Title",ExpressionUUID->"3870bea4-1d93-406a-9ac7-aaa7bb74176f"],
+Cell[745, 27, 185, 3, 34, "Text",ExpressionUUID->"c8dd465d-c7c3-4082-bbac-24b3a4f3998f"],
+Cell[CellGroupData[{
+Cell[955, 34, 1757, 50, 145, "Input",ExpressionUUID->"8003d3ff-697c-43ac-a61b-0f62b90edaa6"],
+Cell[2715, 86, 368, 9, 23, "Message",ExpressionUUID->"17724aa4-959e-423e-9166-219eb169784a"],
+Cell[3086, 97, 1554, 46, 111, "Output",ExpressionUUID->"02ec3e83-43ec-4a7c-b375-8337760fec06"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4677, 148, 1771, 49, 107, "Input",ExpressionUUID->"e7c8904d-10ef-4a5b-91d1-5e76b68671b1"],
+Cell[6451, 199, 446, 11, 23, "Message",ExpressionUUID->"9ce25c19-3424-4222-83a9-9cf76c4a3331"],
+Cell[6900, 212, 448, 11, 23, "Message",ExpressionUUID->"ce55ad89-d4be-40dd-be02-37f571f5998b"],
+Cell[7351, 225, 448, 11, 23, "Message",ExpressionUUID->"8784434d-2875-4aeb-a3b8-802e8630d32e"],
+Cell[7802, 238, 530, 12, 23, "Message",ExpressionUUID->"8e4ab77c-6b76-4907-9310-06a46f029de6"],
+Cell[8335, 252, 2091, 33, 80, "Message",ExpressionUUID->"5a73c5f9-ff43-4b7f-8ffa-b6df75cf9751"],
+Cell[10429, 287, 1708, 49, 111, "Output",ExpressionUUID->"c787c491-b928-4d1b-ade2-cf96a5d0a8f2"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
