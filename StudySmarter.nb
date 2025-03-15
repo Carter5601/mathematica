@@ -1,0 +1,168 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6401,        160]
+NotebookOptionsPosition[      5704,        139]
+NotebookOutlinePosition[      6101,        155]
+CellTagsIndexPosition[      6058,        152]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"y", "=", 
+    RowBox[{"10", "*", "x"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "10"}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Time\>\"", ",", "\"\<Position\>\""}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8661454455512023`*^9, 3.8661454613778934`*^9}, {
+   3.866145504835514*^9, 3.866145576055606*^9}, {3.866145621877822*^9, 
+   3.866145641366829*^9}, {3.8661460957299953`*^9, 3.866146176416952*^9}, {
+   3.8668352829754906`*^9, 3.866835288827808*^9}, {3.86751200359776*^9, 
+   3.867512068757246*^9}, 3.8675149901283336`*^9},
+ CellLabel->"In[4]:=",ExpressionUUID->"5c5aa1f5-00b5-46a8-9ea8-da0312c07aa6"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    TagBox[
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
+      1.], LineBox[CompressedData["
+1:eJwVxX041AcAB3DmrYmNWvLW3Y+fJVKdzVp58PtGQri85hePlvNy57VcbglJ
+JO7xdpXJy7gkvXk6MVpqXpLIa0VrG/Ykkqi2dN2u87rtj8/zMeEc9An/RElJ
+yfM//1+eylG3DstxMC1YrKpg3HXoGCI8AohIqnGFBTOWJ6aWO1syCOIo1Zoo
+ubiBV0uVt+Ux1Qgh1cGK56rzWqkYe0GsnFlCdeUOusq4D6mheV7hO+ZV6oFt
+RtMb7jNKY2Tc/C2zieo+PRL/ivs3Vdkjjn/N7KbcmjXYL7nLlKRWOBKzeZjq
+1976qWqwDrjU45I3/AlqR4Fz2+U9+oibtJhokExT4VvmtK21CWianDR/tu0d
+5WERPqvnYoZ8nV7LygNSqv7JMUH3tg3gjPi1qvT9Q9musqxVPW6F+PsnOQfN
+5yju/JnyapqFukNavvpui9TBzqmvaz2/QmVy9AwrQAnCQPUvF2NskC5e8P7w
+RhmcruQIa95WKA2N4ZckFbRpGHhH79uG9QkRiX6WamDpphVNJ9jihezc3pXN
+6giW2luxY+ywezLq2Jn4Ffix4r6xPM8B7BeijQyGJurybUcGfYCZe5y0B9dX
+gn/b3qvcYwc26z5d5/SdNpp7qt8LgxyhSclCRqWfIcJle3Mk7QSXt4FyU38d
+lFyxboyO2onf28OUA610kS9tPnHoiDMaszv2EzJdjF8TfM/j70KEmmBsYGAV
+2nadKU5Pd0EoP7lRq3Q1FtjD4wVprtjC3TjgEfIF5nFT+fxRNzxcZbVSsH0N
+MtbKPQezduOOJL3MSkUPUYGh7fIMdyQrW3r1/amH4RM2YdQPHtAcTXKNa1gL
+rbMlw8JKT0xeMikUp+ijQsfyaFcZG4UbDFSb/A3QxGc6m9fsgag0oiuEMEQp
+cd7Y3s8LgYXBA1pThriVMqfEe+SFjzurFeIWIxi5ayyQAd6YmHRMbM8yhuSh
+Rc4fT7xxwd7aqD9kHTI7l1hEsA+uZwp0uZsYyD08HXVg1AdZ/qHuKjIGEtYw
+Pjfd54tvRiuvZvUzUWmh1pMw5otii7Lr/e4ElqTKBnf3++F4W16xexMBMasu
+tWLKD55G/tU9ZiYgONfYi7H+2BHXFaQrNMFjt6Z6/9f+EBtzzPpkJuiqStpE
+Hd4Ls3uXi9hBpnj7k7ed6fu9EG1qtxxsMcWHW/zGU3EBiJCqPu62JAHWLucU
+WQA4de8JYQGJ28FbIqMP04hJ913YfZqERijvTrmAhsC34TetsyR8eJXaj47Q
+yJYJ8kVFJGb4q+ttUmhItivmz5WTMMyWzy2epKG4u/z0Ug2JI/WtuaIiGqJB
+rbyOLhI2Gl43GptolFbF8k51k0jTEn7y6g6NqoQBJ9deEn267X6GLTRu6onm
+egdIhBnbKFLbaYwGruYN/UrirLW+o2svDfMJA6fxCRKzQWNDw6M0WA1JjIuT
+JOxCDNZrP6NhmzmiCJ8ikR3hk0g9p+FhXn5jeoYEM77D+OIkDX40wZidJcE+
+dSU89i8aKXYnFPVSEmU5z38Wv6ORqT3+JEFG4qXIUHPwPY3i2qqcjx9JpJbl
+SrbKaVxIU+XeniPRc/6+UqSCRo13uGPKAgm9S0s+ZfM0Gkw71zkskQip+ba6
+f5FGi3S9YnmZhOTGIfnyMo1/AdAELEA=
+       "]]},
+     Annotation[#, "Charting`Private`Tag$3184#1"]& ]}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{
+    FormBox["\"Time\"", TraditionalForm], 
+    FormBox["\"Position\"", TraditionalForm]},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 10}, {0., 99.99999795918367}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.8661455339289618`*^9, 3.8661455767113333`*^9}, 
+   3.866145631828907*^9, {3.8661461225129642`*^9, 3.866146137003806*^9}, {
+   3.866146169289066*^9, 3.866146177445201*^9}, 3.8668352964348793`*^9, {
+   3.8675120382143784`*^9, 3.867512070133857*^9}, 3.867514991650818*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"07893c16-26bb-4434-9885-e7ce901778ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExampleData", "[", 
+  RowBox[{"\"\<TestImage\>\"", ",", "\"\<Peppers\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8661959714718037`*^9, 3.866195972319905*^9}, {
+  3.8671554862757797`*^9, 3.8671555357651677`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"5494a4eb-50ec-449c-8859-6ffe26abbfba"],
+
+Cell[BoxData[
+ RowBox[{"ExampleData", "[", 
+  RowBox[{"\<\"TestImage\"\>", ",", "\<\"Peppers\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{{3.867155511352043*^9, 3.8671555367393603`*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"bff48f0b-34ea-4d99-bdbf-dd1dde4b08e0"]
+}, Open  ]]
+},
+WindowSize->{1117, 673},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"37896726-2f85-4a1a-bcf9-636b46045666"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 739, 16, 28, "Input",ExpressionUUID->"5c5aa1f5-00b5-46a8-9ea8-da0312c07aa6"],
+Cell[1322, 40, 3746, 80, 235, "Output",ExpressionUUID->"07893c16-26bb-4434-9885-e7ce901778ec"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5105, 125, 316, 5, 28, "Input",ExpressionUUID->"5494a4eb-50ec-449c-8859-6ffe26abbfba"],
+Cell[5424, 132, 264, 4, 32, "Output",ExpressionUUID->"bff48f0b-34ea-4d99-bdbf-dd1dde4b08e0"]
+}, Open  ]]
+}
+]
+*)
+
