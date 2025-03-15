@@ -1,0 +1,134 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4046,        124]
+NotebookOptionsPosition[      3474,        106]
+NotebookOutlinePosition[      3871,        122]
+CellTagsIndexPosition[      3828,        119]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "M"}], "*", 
+      SuperscriptBox[
+       RowBox[{
+        RowBox[{"x", "'"}], "[", "t", "]"}], "2"], "*", 
+      SuperscriptBox["R", "2"], "*", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"x", "[", "t", "]"}], "]"}]}], "+", 
+     RowBox[{"m", "*", "g", "*", "r", "*", 
+      RowBox[{"Cos", "[", 
+       RowBox[{"x", "[", "t", "]"}], "]"}]}]}], "\[Equal]", 
+    RowBox[{
+     RowBox[{"m", "*", 
+      RowBox[{
+       RowBox[{"x", "''"}], "[", "t", "]"}], "*", 
+      SuperscriptBox["R", "2"], "*", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"x", "[", "t", "]"}], "]"}], ")"}], "2"]}], "+", 
+     RowBox[{
+      FractionBox["1", "2"], "*", 
+      RowBox[{
+       RowBox[{"x", "''"}], "[", "t", "]"}], "*", "M", "*", 
+      SuperscriptBox["R", "2"]}]}]}], ",", 
+   RowBox[{"x", "[", "t", "]"}], ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.874435967656279*^9, 3.8744359924235353`*^9}, {
+  3.8744360485213623`*^9, 3.8744361815681815`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"1ccbc15b-10fa-4515-99d5-5a5667798237"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DSolve", "alliv", 
+   "\"The function \\!\\(\\*RowBox[{\\\"x\\\", \\\"[\\\", \\\"t\\\", \
+\\\"]\\\"}]\\) was specified without dependence on all the independent \
+variables. Each function must depend on all the independent variables.\"", 2, 
+   1, 1, 33383095876176209254, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.874436186492112*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"74c3d5f0-8fc2-4909-96d5-f98011491288"],
+
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"g", " ", "m", " ", "r", " ", 
+      RowBox[{"Cos", "[", 
+       RowBox[{"x", "[", "t", "]"}], "]"}]}], "-", 
+     RowBox[{"M", " ", 
+      SuperscriptBox["R", "2"], " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"x", "[", "t", "]"}], "]"}], " ", 
+      SuperscriptBox[
+       RowBox[{
+        SuperscriptBox["x", "\[Prime]",
+         MultilineFunction->None], "[", "t", "]"}], "2"]}]}], "\[Equal]", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", "2"], " ", "M", " ", 
+      SuperscriptBox["R", "2"], " ", 
+      RowBox[{
+       SuperscriptBox["x", "\[Prime]\[Prime]",
+        MultilineFunction->None], "[", "t", "]"}]}], "+", 
+     RowBox[{"m", " ", 
+      SuperscriptBox["R", "2"], " ", 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", 
+        RowBox[{"x", "[", "t", "]"}], "]"}], "2"], " ", 
+      RowBox[{
+       SuperscriptBox["x", "\[Prime]\[Prime]",
+        MultilineFunction->None], "[", "t", "]"}]}]}]}], ",", 
+   RowBox[{"x", "[", "t", "]"}], ",", "x"}], "]"}]], "Output",
+ CellChangeTimes->{3.874436186634163*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"364a29fc-6cc7-4b66-8452-86aca4695c79"]
+}, Open  ]]
+},
+WindowSize->{1117, 673},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"509af01f-0fb5-496b-89ae-d89c6a242bff"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1174, 33, 44, "Input",ExpressionUUID->"1ccbc15b-10fa-4515-99d5-5a5667798237"],
+Cell[1757, 57, 501, 11, 23, "Message",ExpressionUUID->"74c3d5f0-8fc2-4909-96d5-f98011491288"],
+Cell[2261, 70, 1197, 33, 48, "Output",ExpressionUUID->"364a29fc-6cc7-4b66-8452-86aca4695c79"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,148 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      5409,        140]
+NotebookOptionsPosition[      4538,        116]
+NotebookOutlinePosition[      5099,        135]
+CellTagsIndexPosition[      5056,        132]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lissajous Figures", "Title",
+ CellChangeTimes->{{3.451049533391796*^9, 
+  3.451049536954342*^9}},ExpressionUUID->"3d689ea1-c715-49f9-b882-\
+e26442519d2f"],
+
+Cell[BoxData[
+ RowBox[{"Quit", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.451049544876318*^9, 3.451049546141959*^9}, {
+  3.4510498593178425`*^9, 3.4510498608491125`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"a6f91f61-6400-4d03-9830-f5a5b6890ba3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Cos", "[", 
+        RowBox[{"\[Omega]x", " ", "t"}], "]"}], ",", 
+       RowBox[{"Ay", " ", 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          RowBox[{"\[Omega]y", " ", "t"}], "+", "phi"}], "]"}]}]}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", "10"}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Omega]x", ",", "1", ",", "8"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Omega]y", ",", "1", ",", "8"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Ay", ",", "0.5", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"phi", ",", "0", ",", 
+     RowBox[{"2", "*", "Pi"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.451049716737893*^9, 3.4510498144578934`*^9}, {
+  3.451049850255227*^9, 3.4510498561459274`*^9}, {3.5771136834112854`*^9, 
+  3.577113689058485*^9}, {3.577113791207285*^9, 3.577113925975685*^9}, {
+  3.5771139773620853`*^9, 3.5771139777208853`*^9}, {3.7978702242344856`*^9, 
+  3.7978702243114963`*^9}, {3.7978702924819884`*^9, 3.797870292558935*^9}, {
+  3.7979038217177925`*^9, 3.797903826362871*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"977a3610-9104-4d8a-8d44-faf229a7ded5"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`Ay$$ = 0.5, $CellContext`phi$$ = 
+    3.606548366321083, $CellContext`\[Omega]x$$ = 
+    1., $CellContext`\[Omega]y$$ = 1., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`\[Omega]x$$], 1, 8}, {
+      Hold[$CellContext`\[Omega]y$$], 1, 8}, {
+      Hold[$CellContext`Ay$$], 0.5, 2}, {
+      Hold[$CellContext`phi$$], 0, 2 Pi}}, Typeset`size$$ = {
+    360., {88., 92.50001508899089}}, Typeset`update$$ = 0, Typeset`initDone$$,
+     Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`Ay$$ = 0.5, $CellContext`phi$$ = 
+        0, $CellContext`\[Omega]x$$ = 1, $CellContext`\[Omega]y$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> ParametricPlot[{
+         Cos[$CellContext`\[Omega]x$$ $CellContext`t], $CellContext`Ay$$ 
+         Cos[$CellContext`\[Omega]y$$ $CellContext`t + $CellContext`phi$$]}, \
+{$CellContext`t, 0, 10}], 
+      "Specifications" :> {{$CellContext`\[Omega]x$$, 1, 
+         8}, {$CellContext`\[Omega]y$$, 1, 8}, {$CellContext`Ay$$, 0.5, 
+         2}, {$CellContext`phi$$, 0, 2 Pi}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{407., {161., 167.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.879427033262597*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"9db33f4a-9374-427c-b93d-189fc3acb776"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1117, 681},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->FrontEnd`FileName[{"Creative"}, "PastelColor.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"becbe464-2538-400a-bad3-607e3c80ca65"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 160, 3, 65, "Title",ExpressionUUID->"3d689ea1-c715-49f9-b882-e26442519d2f"],
+Cell[730, 27, 249, 4, 40, "Input",ExpressionUUID->"a6f91f61-6400-4d03-9830-f5a5b6890ba3"],
+Cell[CellGroupData[{
+Cell[1004, 35, 1297, 31, 40, "Input",ExpressionUUID->"977a3610-9104-4d8a-8d44-faf229a7ded5"],
+Cell[2304, 68, 2206, 44, 355, "Output",ExpressionUUID->"9db33f4a-9374-427c-b93d-189fc3acb776"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
