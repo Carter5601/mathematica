@@ -1,0 +1,65 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1586,         55]
+NotebookOptionsPosition[      1107,         38]
+NotebookOutlinePosition[      1511,         54]
+CellTagsIndexPosition[      1468,         51]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"BesselJ", "[", 
+    RowBox[{"0", ",", "x"}], "]"}], ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.878085153098581*^9, 3.8780851783710756`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"e7f3a2d6-8e7b-41e0-bd51-40e65d17ccf1"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{"BesselJ", "[", 
+   RowBox[{"1", ",", "x"}], "]"}]}]], "Output",
+ CellChangeTimes->{3.8780851797709293`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"3339ed71-2dc4-4146-88d3-1657b343ff1e"]
+}, Open  ]]
+},
+WindowSize->{571., 627.5},
+WindowMargins->{{273, Automatic}, {12.5, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7f4285d7-feb3-4f91-aa0e-8ee2f4ed4554"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 283, 6, 28, "Input",ExpressionUUID->"e7f3a2d6-8e7b-41e0-bd51-40e65d17ccf1"],
+Cell[866, 30, 225, 5, 32, "Output",ExpressionUUID->"3339ed71-2dc4-4146-88d3-1657b343ff1e"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
